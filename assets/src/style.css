@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  overflow-x: hidden; 
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sapp-container {
+  font-family: Poppins, sans-serif;
+  gap: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 50vw;
+  background-color: #18345E;
+}
+
+.sapp-container h2 {
+  font-size: 20px;
+}
+
+.sapp-container h4 {
+  font-size: 12px;
+}
+
+.formulario-container {
+  font-family: Poppins, sans-serif;
+  gap: 20px;
+  color: #18345E;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 67vw;
+  margin-top: 30vh;
+}
+
+.formulario-container #input-container {
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  text-align: left;
+}
+
+.sign-button {
+  background-color: #F0AB20;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #18345E;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.input-text {
+  background-image: url(/assets/email.png);
+  background-position: 12vw;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.input-password {
+  background-image: url(/assets/olho.png);
+  background-position: 12vw;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.sign-button:hover {
+
+}
